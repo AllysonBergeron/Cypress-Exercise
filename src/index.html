@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
+
+    .button {
+      width: 150px;
+      height: 150px;
+      font-size: 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .star-button {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .x-button {
+      background-color: grey;
+      color: white;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>Home</h1>
+  <div class="button-container">
+    <button data-testid="instrument-button" class="button star-button" onclick="navigateToInstrument()">⭐ Instrument </button>
+    <button class="button x-button">❌ Offline Instrument</button>
+    <button class="button x-button">❌ Offline Instrument</button>
+    <button class="button x-button">❌ Offline Instrument</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

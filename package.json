@@ -1,0 +1,19 @@
+{
+  "name": "cypress-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./src -o", 
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "http-server": "^14.1.1",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,16 @@
+## Cypress Testing Exercise
+
+### Setup Instructions
+
+**Install Dependencies**:
+
+```bash
+npm install
+
+
+**Start the Application**:
+npm start
+
+**Run Cypress Tests**:
+npm run cypress:open
+```
