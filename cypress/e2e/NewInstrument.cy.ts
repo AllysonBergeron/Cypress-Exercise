@@ -4,7 +4,7 @@ describe("Basic New Instrument Functionality", () => {
     cy.visit("http://localhost:8080/index.html");
 
     // Click the Instrument button
-    cy.getByTestId("instrument-button").click();
+    cy.get('[data-testid="instrument-button"]').click();
 
     // Verify the Instrument page is loaded
     cy.url().should("include", "/instrument.html");

@@ -12,7 +12,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": false,
-    "noEmitOnError": true
+    "noEmitOnError": true, 
+    "types": ["cypress"]
   },
   "include": [
     "src/**/*.ts"

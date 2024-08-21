@@ -4,6 +4,7 @@
 
 **Install Dependencies**:
 npm install
+npm install cypress --save-dev
 
 **Start the Application**:
 npm start
