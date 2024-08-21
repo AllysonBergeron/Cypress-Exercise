@@ -3,8 +3,8 @@
 ### Setup Instructions
 
 **Install Dependencies**:
-npm install
-npm install cypress --save-dev
+1. npm install
+2. npm install cypress --save-dev
 
 **Start the Application**:
 npm start
