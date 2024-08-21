@@ -1,12 +1,14 @@
-declare module '@testing-library/cypress/add-commands';
+/// <reference types="cypress" />
 
-import '@testing-library/cypress/add-commands';
+// declare module '@testing-library/cypress/add-commands';
 
-declare global {
-    namespace Cypress {
-      interface Chainable<Subject> {
-        getByTestId(testId: string): Chainable<JQuery<HTMLElement>>;
-        // You can add other custom commands here if needed
-      }
-    }
-}
+// import '@testing-library/cypress/add-commands';
+
+// declare global {
+//     namespace Cypress {
+//       interface Chainable<Subject> {
+//         getByTestId(testId: string): Chainable<JQuery<HTMLElement>>;
+//         // You can add other custom commands here if needed
+//       }
+//     }
+// }

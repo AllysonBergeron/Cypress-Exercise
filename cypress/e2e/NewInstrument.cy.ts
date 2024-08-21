@@ -1,3 +1,4 @@
+
 describe("Basic New Instrument Functionality", () => {
   it("should allow a user to navigate to instrument page by clicking instrument icon", () => {
     // Visit the Home page
