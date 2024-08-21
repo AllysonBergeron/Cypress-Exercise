@@ -14,10 +14,10 @@ npm run cypress:open
 
 ### Exercise Instructions
 
-1. Setup and run the application
-2. Run the NewInstrument.cy.ts spec
+1. Start the application and play around
+2. Run the NewInstrument.cy.ts spec within Cypress
 3. Update the NewInstrument.cy.ts
-   1. The first test should pass w/o aleration
-   2. The second test requires you to fill in two lines of code
-   3. The third test is failing and will need troubleshooting
-   4. The forth test is totally up to the writer
+   1. The first test should pass without alteration, and you may reference it throughout the exercise.
+   2. The second test is incomplete, and you are prompted to add new lines of code to satisfy the test.
+   3. The third test is failing. Please troubleshoot the failure and correct the test so that it passes.
+   4. The fourth test is yours to design.
