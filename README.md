@@ -3,8 +3,9 @@
 ### Setup Instructions
 
 **Install Dependencies**:
-1. npm install
-2. npm install cypress --save-dev
+1. Go to https://nodejs.org/ to grab the latest LTS installer install Node.js
+2. npm install
+3. npm install cypress --save-dev
 
 **Start the Application**:
 npm start
