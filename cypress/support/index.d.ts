@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="Cypress" />
 
 // declare module '@testing-library/cypress/add-commands';
 
@@ -8,7 +8,6 @@
 //     namespace Cypress {
 //       interface Chainable<Subject> {
 //         getByTestId(testId: string): Chainable<JQuery<HTMLElement>>;
-//         // You can add other custom commands here if needed
 //       }
 //     }
 // }

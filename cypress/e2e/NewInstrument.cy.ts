@@ -1,4 +1,4 @@
-
+/// <reference types="Cypress" />
 describe("Basic New Instrument Functionality", () => {
   it("should allow a user to navigate to instrument page by clicking instrument icon", () => {
     // Visit the Home page
@@ -16,11 +16,11 @@ describe("Basic New Instrument Functionality", () => {
     //Visit instrument page
     cy.visit("http://localhost:8080/instrument.html");
     
-    //click the "back" button, prefereably using TestId
-    //YOUR CODE HERE
-
-    //Verify you are at the Home page
-    //YOUR CODE HERE
+     //click the "Back" button, prefereably using Test Id
+     //YOUR CODE HERE
+  
+     //Verify you are at the Home page
+     //YOUR CODE HERE
   });
 
   it("should allow Quality Control results to be sorted from oldest to newest", () => {
@@ -39,6 +39,6 @@ describe("Basic New Instrument Functionality", () => {
   });
 
   it('should show the user a success modal when the "Run Quality Control" button is clicked', () => {
-    //write your code here!
+    //YOUR CODE HERE
   });
 });
